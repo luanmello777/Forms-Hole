@@ -52,9 +52,9 @@
             label="Li e concordo com so Termos de Uso e Política de Privacidade." required></v-checkbox>
         </v-form>
 
-        <div :class="smAndDown ? 'mt-' : 'ml-16'">
-          <v-btn class="btn text-white" color="primary" width="700" height="45"
-            :class="smAndDown ? '' : 'ml-1'">Cadastrar</v-btn>
+        <div class="d-flex justify-center align-center" :class="smAndDown ? '' : 'mr-16'">
+          <v-btn class="btn text-white" color="primary" width="750" height="45"
+            :class="smAndDown ? '' : 'mr-16'">Cadastrar</v-btn>
         </div>
       </div>
     </div>
