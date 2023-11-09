@@ -130,7 +130,7 @@ const emailRules = ref([
 const Telefone = ref('');
 const foneRules = ref([
   value => {
-    if (value) return true;
+    if (value?.length <= 11) return true;
     return 'É necessário inserir um telefone.';
   },
   value => {
