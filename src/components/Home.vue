@@ -99,8 +99,8 @@ const nomeRules = ref([
     return 'É necessário inserir um nome.';
   },
   value => {
-    if (value?.length <= 10) return true;
-    return 'Insira um nome de no minimo 4 letras.';
+    if (value?.length <= 50) return true;
+    return 'Insira um nome de no minimo 3 letras.';
   },
 ]);
 
@@ -111,8 +111,7 @@ const sobrenomeRules = ref([
     return 'É necessário inserir um Sobrenome.';
   },
   value => {
-    if (value?.length <= 10) return true;
-    return 'Insira um nome de no minimo 4 letras.';
+    if (value?.length <= 50) return true;
   },
 ]);
 
