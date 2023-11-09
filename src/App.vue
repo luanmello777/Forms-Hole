@@ -3,11 +3,11 @@
     <v-app-bar flat height="5" color="#ff4f00"></v-app-bar>
  
     <v-main>
-      <HelloWorld />
+      <Home />
     </v-main>
   </v-app>
 </template>
 
 <script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+  import Home from '@/components/Home.vue'
 </script>
