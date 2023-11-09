@@ -29,7 +29,7 @@
               </v-col>
 
               <v-col cols="12" md="5">
-                <v-text-field v-model="Telefone" :rules="foneRules" label="Telefone" placeholder="(99) 9999-9999"
+                <v-text-field v-model="Telefone" :rules="foneRules" label="Telefone" placeholder="(XX) XXXXX-XXXX"
                   hint="Informe seu telefone" color="#ff4f00"
                   prepend-icon="mdi-cellphone text-deep-orange-accent-3"></v-text-field>
               </v-col>
